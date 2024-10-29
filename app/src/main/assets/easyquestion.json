@@ -1,0 +1,80 @@
+{
+  "easyquestion": [{
+    "question": "What color is the sky on a clear day?",
+    "answer1": "A)Green",
+    "answer2": "B)Blue",
+    "answer3": "C)Yellow",
+    "answer4": "D)Red",
+    "correct": "B)Blue"
+  },
+    {
+      "question": "Which shape has three sides?",
+      "answer1": "A)Circle",
+      "answer2": "B)Square",
+      "answer3": "C)Triangle",
+      "answer4": "D)Rectangle",
+      "correct": "C)Triangle"
+    },
+    {
+      "question": "What do bees make?",
+      "answer1": "A)Chocolate",
+      "answer2": "B)Sugar",
+      "answer3": "C)Honey",
+      "answer4": "D)Milk",
+      "correct": "C)Honey"
+    },{
+      "question": "How many days are there in a week?",
+      "answer1": "A)10",
+      "answer2": "B)9",
+      "answer3": "C)8",
+      "answer4": "D)7",
+      "correct": "D)7"
+    },
+    {
+      "question": "What is the color of a banana?",
+      "answer1": "A)Red",
+      "answer2": "B)Yellow",
+      "answer3": "C)Green",
+      "answer4": "D)Brown",
+      "correct": "B)Yellow"
+    },
+    {
+      "question": "Which animal is known as man's best friend?",
+      "answer1": "A)Cat",
+      "answer2": "B)Bird",
+      "answer3": "C)Fish",
+      "answer4": "D)Dog",
+      "correct": "D)Dog"
+    },
+    {
+      "question": "How many hours are there in a day?",
+      "answer1": "A)10",
+      "answer2": "B)12",
+      "answer3": "C)24",
+      "answer4": "D)36",
+      "correct": "C)24"
+    },
+    {
+      "question": "Which month comes after March?",
+      "answer1": "A)June",
+      "answer2": "B)August",
+      "answer3": "C)April",
+      "answer4": "D)July",
+      "correct": "C)April"
+    },{
+      "question": "What is the largest ocean on Earth?",
+      "answer1": "A)Atlantic Ocean",
+      "answer2": "B)Indian Ocean",
+      "answer3": "C)Southern Ocean",
+      "answer4": "D)Pacific Ocean",
+      "correct": "D)Pacific Ocean"
+    },{
+      "question": "What is the capital of France?",
+      "answer1": "A)Berlin",
+      "answer2": "B)Madrid",
+      "answer3": "C)Paris",
+      "answer4": "D)Rome",
+      "correct": "D)Paris"
+    }
+  ]
+}

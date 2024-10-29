@@ -1,0 +1,94 @@
+{
+  "difficultquestion": [{
+    "question": "What is the capital of Bhutan?",
+    "answer1": "A)Katmandu",
+    "answer2": "B)Thimphu",
+    "answer3": "C)Dhaka",
+    "answer4": "D)Colombo",
+    "correct": "B)Thimphu"
+  },
+    {
+      "question": "Which element has the atomic number 79?",
+      "answer1": "A)Gold",
+      "answer2": "B)Silver",
+      "answer3": "C)Platinum",
+      "answer4": "D)Mercury",
+      "correct": "A)Gold"
+    },
+    {
+      "question": "In which year did the Berlin Wall fall?",
+      "answer1": "A)1985",
+      "answer2": "B)1987",
+      "answer3": "C)1989",
+      "answer4": "D)1990",
+      "correct": "C)1989"
+    },{
+      "question": "What is the largest desert in the world?",
+      "answer1": "A)Sahara",
+      "answer2": "B)Antarctic Desert",
+      "answer3": "C)Arabian Desert",
+      "answer4": "D)Gobi Desert",
+      "correct": "B)Antarctic Desert"
+    },
+    {
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "answer1": "A)Rosalind Franklin",
+      "answer2": "B)Jane Addams",
+      "answer3": "C)Doris Lessing",
+      "answer4": "D)Marie Curie",
+      "correct": "D)Marie Curie"
+    },
+    {
+      "question": "What is the main ingredient in traditional Japanese miso soup?",
+      "answer1": "A)Soybeans",
+      "answer2": "B)Miso paste",
+      "answer3": "C)Rice",
+      "answer4": "D) Seaweed",
+      "correct": "B)Miso paste"
+    },
+    {
+      "question": "Which philosopher is known for the quote, \"I think, therefore I am\"?",
+      "answer1": "A)Friedrich Nietzsche",
+      "answer2": "B)René Descartes",
+      "answer3": "C)Socrates",
+      "answer4": "D)Immanuel Kant",
+      "correct": "B)René Descartes"
+    },
+    {
+      "question": "Which country gifted the Statue of Liberty to the United States?",
+      "answer1": "A)Spain",
+      "answer2": "B)Italy",
+      "answer3": "C)France",
+      "answer4": "D)Germany",
+      "correct": "C)France"
+    },{
+      "question": "What is the smallest country in the world by land area?",
+      "answer1": "A)Monaco",
+      "answer2": "B)San Marino",
+      "answer3": "C)Liechtenstein",
+      "answer4": "D)Vatican City",
+      "correct": "D)Vatican City"
+    },{
+      "question": "In which year did the United States declare its independence?",
+      "answer1": "A)1783",
+      "answer2": "B)1776",
+      "answer3": "C)1778",
+      "answer4": "D)1780",
+      "correct": "B)1776"
+    },{
+      "question": "What is the only continent without a native species of ants?",
+      "answer1": "A)Europe",
+      "answer2": "B)North America",
+      "answer3": "C)Antarctica",
+      "answer4": "D)Australia",
+      "correct": "C)Antarctica"
+    },{
+      "question": "Which ancient civilization is known for its pyramids?",
+      "answer1": "A)Mesopotamian",
+      "answer2": "B)Indus Valley",
+      "answer3": "C)Egyptian",
+      "answer4": "D)Mayan",
+      "correct": "C)Egyptian"
+    }
+  ]
+}
