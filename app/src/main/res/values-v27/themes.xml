@@ -16,6 +16,5 @@
         <item name="android:navigationBarColor">@color/background</item>
         <item name="android:windowLightNavigationBar">true</item>
         <item name="textAppearanceTitleLarge">@style/TextAppearance.Material3.ActionBar.Title</item>
-        <item name="materialAlertDialogTheme">@style/AlertDialog</item>
     </style>
 </resources>

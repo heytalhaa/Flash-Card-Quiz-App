@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="@color/green"
     tools:context=".ui.splashactivity.SplashActivity">
 
         <ImageView
@@ -13,11 +13,10 @@
             android:layout_height="150dp"
             android:id="@+id/imgV"
             android:src="@drawable/quiz"
-            android:layout_marginTop="250dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-
+            app:layout_constraintBottom_toBottomOf="parent"
             />
         <TextView
             android:layout_width="match_parent"

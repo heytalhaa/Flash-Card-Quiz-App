@@ -10,15 +10,15 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarLayout"
-        app:statusBarForeground="@color/background"
-        android:background="@color/background"
+        app:statusBarForeground="@color/green"
+        android:background="@color/green"
         android:fitsSystemWindows="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:elevation="0dp"
-            android:background="@color/background"
+            android:background="@color/green"
             app:titleTextColor="@color/text_color"
             app:title="@string/app_name"
             android:layout_width="match_parent"
@@ -81,7 +81,6 @@
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
-
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
