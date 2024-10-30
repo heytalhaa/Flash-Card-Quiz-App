@@ -5,9 +5,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
     android:orientation="vertical"
-    tools:context=".ui.quizactivity.BasicQuizActivity">
+    android:background="@color/background"
+    tools:context=".ui.quizactivity.ComputerQuizActivity">
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
         android:elevation="0dp"
@@ -18,7 +18,7 @@
         android:layout_height="?attr/actionBarSize">
         <com.google.android.material.appbar.MaterialToolbar
             app:titleCentered="true"
-            app:title="EASY QUIZ"
+            app:title="COMPUTER QUIZ"
             app:titleTextColor="@color/text_color"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>

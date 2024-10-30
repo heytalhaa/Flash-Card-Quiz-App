@@ -1,0 +1,124 @@
+{
+  "egnlishquestion": [
+    {
+      "question": "Which of the following is a synonym for 'happy'?",
+      "answer1": "A) Sad",
+      "answer2": "B) Angry",
+      "answer3": "C) Joyful",
+      "answer4": "D) Tired",
+      "correct": "C) Joyful"
+    },
+    {
+      "question": "What is the plural form of 'child'?",
+      "answer1": "A) Childs",
+      "answer2": "B) Children",
+      "answer3": "C) Childrens",
+      "answer4": "D) Childes",
+      "correct": "B) Children"
+    },
+    {
+      "question": "Which of the following is an example of a verb?",
+      "answer1": "A) Quickly",
+      "answer2": "B) Blue",
+      "answer3": "C) Run",
+      "answer4": "D) Beautiful",
+      "correct": "C) Run"
+    },
+    {
+      "question": "What is the past tense of 'go'?",
+      "answer1": "A) Going",
+      "answer2": "B) Goes",
+      "answer3": "C) Went",
+      "answer4": "D) Gone",
+      "correct": "C) Went"
+    },
+    {
+      "question": "Which of these words is an adjective?",
+      "answer1": "A) Quickly",
+      "answer2": "B) Happiness",
+      "answer3": "C) Beautiful",
+      "answer4": "D) Run",
+      "correct": "C) Beautiful"
+    },
+    {
+      "question": "Which of the following sentences is correct?",
+      "answer1": "A) She don’t like apples.",
+      "answer2": "B) She doesn’t likes apples.",
+      "answer3": "C) She doesn’t like apples.",
+      "answer4": "D) She don’t likes apples.",
+      "correct": "C) She doesn’t like apples."
+    },
+    {
+      "question": "Which word is the subject in this sentence: 'The dog chased the cat'?",
+      "answer1": "A) Dog",
+      "answer2": "B) Chased",
+      "answer3": "C) Cat",
+      "answer4": "D) The",
+      "correct": "A) Dog"
+    },
+    {
+      "question": "What is the antonym of 'hot'?",
+      "answer1": "A) Warm",
+      "answer2": "B) Cool",
+      "answer3": "C) Cold",
+      "answer4": "D) Heat",
+      "correct": "C) Cold"
+    },
+    {
+      "question": "Which of the following is a conjunction?",
+      "answer1": "A) Because",
+      "answer2": "B) But",
+      "answer3": "C) And",
+      "answer4": "D) All of the above",
+      "correct": "D) All of the above"
+    },
+    {
+      "question": "What is the correct spelling of the word meaning 'a lot of people together'?",
+      "answer1": "A) Crue",
+      "answer2": "B) Creowd",
+      "answer3": "C) Crowd",
+      "answer4": "D) Croud",
+      "correct": "C) Crowd"
+    },
+    {
+      "question": "What is the correct form of the verb in this sentence: 'He ______ to the store every day'?",
+      "answer1": "A) Go",
+      "answer2": "B) Went",
+      "answer3": "C) Going",
+      "answer4": "D) Goes",
+      "correct": "D) Goes"
+    },
+    {
+      "question": "Which of these is a proper noun?",
+      "answer1": "A) City",
+      "answer2": "B) Car",
+      "answer3": "C) London",
+      "answer4": "D) River",
+      "correct": "C) London"
+    },
+    {
+      "question": "Which is the correct possessive form of 'it'?",
+      "answer1": "A) It’s",
+      "answer2": "B) Its",
+      "answer3": "C) Its’",
+      "answer4": "D) It",
+      "correct": "B) Its"
+    },
+    {
+      "question": "In the sentence 'She sings beautifully', which word is the adverb?",
+      "answer1": "A) She",
+      "answer2": "B) Sings",
+      "answer3": "C) Beautiful",
+      "answer4": "D) Beautifully",
+      "correct": "D) Beautifully"
+    },
+    {
+      "question": "Which word completes the sentence correctly: 'I have never ______ to Paris'?",
+      "answer1": "A) Gone",
+      "answer2": "B) Go",
+      "answer3": "C) Went",
+      "answer4": "D) Going",
+      "correct": "A) Gone"
+    }
+  ]
+}

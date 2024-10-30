@@ -1,0 +1,124 @@
+{
+  "mathquestion": [
+    {
+      "question": "What is the value of π (pi) approximately?",
+      "answer1": "A) 3.12",
+      "answer2": "B) 3.14",
+      "answer3": "C) 3.16",
+      "answer4": "D) 3.18",
+      "correct": "B) 3.14"
+    },
+    {
+      "question": "What is 7 + 5?",
+      "answer1": "A) 10",
+      "answer2": "B) 12",
+      "answer3": "C) 13",
+      "answer4": "D) 15",
+      "correct": "B) 12"
+    },
+    {
+      "question": "What is 15% of 200?",
+      "answer1": "A) 30",
+      "answer2": "B) 20",
+      "answer3": "C) 35",
+      "answer4": "D) 25",
+      "correct": "A) 30"
+    },
+    {
+      "question": "What is the square root of 64?",
+      "answer1": "A) 6",
+      "answer2": "B) 7",
+      "answer3": "C) 8",
+      "answer4": "D) 9",
+      "correct": "C) 8"
+    },
+    {
+      "question": "Solve for x: 2x + 5 = 11.",
+      "answer1": "A) 3",
+      "answer2": "B) 2.5",
+      "answer3": "C) 4",
+      "answer4": "D) 5",
+      "correct": "A) 3"
+    },
+    {
+      "question": "What is 25 × 4?",
+      "answer1": "A) 100",
+      "answer2": "B) 110",
+      "answer3": "C) 90",
+      "answer4": "D) 120",
+      "correct": "A) 100"
+    },
+    {
+      "question": "What is the perimeter of a square with side length 5 cm?",
+      "answer1": "A) 10 cm",
+      "answer2": "B) 15 cm",
+      "answer3": "C) 20 cm",
+      "answer4": "D) 25 cm",
+      "correct": "C) 20 cm"
+    },
+    {
+      "question": "What is the area of a rectangle with length 10 cm and width 4 cm?",
+      "answer1": "A) 14 cm²",
+      "answer2": "B) 20 cm²",
+      "answer3": "C) 40 cm²",
+      "answer4": "D) 50 cm²",
+      "correct": "C) 40 cm²"
+    },
+    {
+      "question": "What is 9 × 9?",
+      "answer1": "A) 72",
+      "answer2": "B) 81",
+      "answer3": "C) 90",
+      "answer4": "D) 99",
+      "correct": "B) 81"
+    },
+    {
+      "question": "Which number is a prime number?",
+      "answer1": "A) 4",
+      "answer2": "B) 6",
+      "answer3": "C) 9",
+      "answer4": "D) 7",
+      "correct": "D) 7"
+    },
+    {
+      "question": "What is the sum of the interior angles of a triangle?",
+      "answer1": "A) 90°",
+      "answer2": "B) 120°",
+      "answer3": "C) 180°",
+      "answer4": "D) 360°",
+      "correct": "C) 180°"
+    },
+    {
+      "question": "What is 5! (5 factorial)?",
+      "answer1": "A) 60",
+      "answer2": "B) 100",
+      "answer3": "C) 120",
+      "answer4": "D) 150",
+      "correct": "C) 120"
+    },
+    {
+      "question": "What is the value of 2³?",
+      "answer1": "A) 4",
+      "answer2": "B) 6",
+      "answer3": "C) 8",
+      "answer4": "D) 9",
+      "correct": "C) 8"
+    },
+    {
+      "question": "What is the formula for the area of a circle?",
+      "answer1": "A) πr²",
+      "answer2": "B) 2πr",
+      "answer3": "C) πd²",
+      "answer4": "D) 2rπ",
+      "correct": "A) πr²"
+    },
+    {
+      "question": "What is the value of 100 ÷ 4?",
+      "answer1": "A) 20",
+      "answer2": "B) 24",
+      "answer3": "C) 25",
+      "answer4": "D) 28",
+      "correct": "C) 25"
+    }
+  ]
+}

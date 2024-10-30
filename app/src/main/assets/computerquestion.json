@@ -1,0 +1,132 @@
+{
+  "computerquestion": [
+    {
+      "question": "What does CPU stand for?",
+      "answer1": "A) Central Process Unit",
+      "answer2": "B) Computer Personal Unit",
+      "answer3": "C) Central Processing Unit",
+      "answer4": "D) Control Processing Unit",
+      "correct": "C) Central Processing Unit"
+    },
+    {
+      "question": "Which of the following is a programming language?",
+      "answer1": "A) HTML",
+      "answer2": "B) CSS",
+      "answer3": "C) JavaScript",
+      "answer4": "D) HTTP",
+      "correct": "C) JavaScript"
+    },
+    {
+      "question": "What is the brain of the computer?",
+      "answer1": "A) RAM",
+      "answer2": "B) CPU",
+      "answer3": "C) Hard Drive",
+      "answer4": "D) GPU",
+      "correct": "B) CPU"
+    },
+    {
+      "question": "What is the full form of HTTP?",
+      "answer1": "A) HyperText Transfer Protocol",
+      "answer2": "B) HyperText Translation Process",
+      "answer3": "C) Hyperlink Transfer Protocol",
+      "answer4": "D) HyperText Transmission Process",
+      "correct": "A) HyperText Transfer Protocol"
+    },
+    {
+      "question": "Which device is used to connect a computer to a network?",
+      "answer1": "A) Modem",
+      "answer2": "B) Monitor",
+      "answer3": "C) Mouse",
+      "answer4": "D) Keyboard",
+      "correct": "A) Modem"
+    },
+    {
+      "question": "Which of the following is an operating system?",
+      "answer1": "A) Microsoft Word",
+      "answer2": "B) Google Chrome",
+      "answer3": "C) Windows",
+      "answer4": "D) Photoshop",
+      "correct": "C) Windows"
+    },
+    {
+      "question": "What does RAM stand for?",
+      "answer1": "A) Random Access Memory",
+      "answer2": "B) Read Access Memory",
+      "answer3": "C) Rapid Access Memory",
+      "answer4": "D) Run Access Memory",
+      "correct": "A) Random Access Memory"
+    },
+    {
+      "question": "Which part of the computer is responsible for data storage?",
+      "answer1": "A) RAM",
+      "answer2": "B) CPU",
+      "answer3": "C) Hard Drive",
+      "answer4": "D) Motherboard",
+      "correct": "C) Hard Drive"
+    },
+    {
+      "question": "What is the function of an operating system?",
+      "answer1": "A) Manages hardware and software",
+      "answer2": "B) Performs calculations",
+      "answer3": "C) Manages databases",
+      "answer4": "D) Runs antivirus programs",
+      "correct": "A) Manages hardware and software"
+    },
+    {
+      "question": "Which of the following is NOT a type of computer memory?",
+      "answer1": "A) SSD",
+      "answer2": "B) USB",
+      "answer3": "C) HDD",
+      "answer4": "D) CPU",
+      "correct": "D) CPU"
+    },
+    {
+      "question": "What is the smallest unit of data in a computer?",
+      "answer1": "A) Byte",
+      "answer2": "B) Bit",
+      "answer3": "C) Kilobyte",
+      "answer4": "D) Megabyte",
+      "correct": "B) Bit"
+    },
+    {
+      "question": "What does URL stand for?",
+      "answer1": "A) Uniform Resource Locator",
+      "answer2": "B) Unified Resource Locator",
+      "answer3": "C) Uniform Retrieval Location",
+      "answer4": "D) Universal Retrieval Locator",
+      "correct": "A) Uniform Resource Locator"
+    },
+    {
+      "question": "Which company developed the Windows operating system?",
+      "answer1": "A) Apple",
+      "answer2": "B) Microsoft",
+      "answer3": "C) IBM",
+      "answer4": "D) Google",
+      "correct": "B) Microsoft"
+    },
+    {
+      "question": "Which of the following is used for writing web pages?",
+      "answer1": "A) HTML",
+      "answer2": "B) C++",
+      "answer3": "C) Python",
+      "answer4": "D) Java",
+      "correct": "A) HTML"
+    },
+    {
+      "question": "Which device is used to output sound from a computer?",
+      "answer1": "A) Monitor",
+      "answer2": "B) Mouse",
+      "answer3": "C) Keyboard",
+      "answer4": "D) Speaker",
+      "correct": "D) Speaker"
+    },
+    {
+      "question": "What is a file with the '.jpg' extension used for?",
+      "answer1": "A) Audio",
+      "answer2": "B) Image",
+      "answer3": "C) Video",
+      "answer4": "D) Document",
+      "correct": "B) Image"
+    }
+  ]
+}

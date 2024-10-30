@@ -13,7 +13,11 @@ import androidx.core.view.WindowInsetsCompat;
 import com.example.quizapp.R;
 import com.example.quizapp.databinding.ActivityMainBinding;
 import com.example.quizapp.ui.quizactivity.BasicQuizActivity;
+import com.example.quizapp.ui.quizactivity.ComputerQuizActivity;
 import com.example.quizapp.ui.quizactivity.DifficultQuizActivity;
+import com.example.quizapp.ui.quizactivity.EnglishQuizActivity;
+import com.example.quizapp.ui.quizactivity.HistoryQuizActivity;
+import com.example.quizapp.ui.quizactivity.MathQuizActivity;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,6 +39,18 @@ public class MainActivity extends AppCompatActivity {
         });
         binding.difficultCard.setOnClickListener(view -> {
             startActivity(new Intent(this, DifficultQuizActivity.class));
+        });
+        binding.computerCard.setOnClickListener(view -> {
+            startActivity(new Intent(this, ComputerQuizActivity.class));
+        });
+        binding.englishCard.setOnClickListener(view -> {
+            startActivity(new Intent(this, EnglishQuizActivity.class));
+        });
+        binding.mathCard.setOnClickListener(view -> {
+            startActivity(new Intent(this, MathQuizActivity.class));
+        });
+        binding.historyCard.setOnClickListener(view -> {
+            startActivity(new Intent(this, HistoryQuizActivity.class));
         });
     }
 
