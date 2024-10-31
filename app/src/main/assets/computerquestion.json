@@ -1,6 +1,5 @@
 {
-  "computerquestion": [
-    {
+  "computerquestion": [{
       "question": "What does CPU stand for?",
       "answer1": "A) Central Process Unit",
       "answer2": "B) Computer Personal Unit",

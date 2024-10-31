@@ -1,6 +1,8 @@
 package com.example.quizapp.ui.quizactivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 
 import androidx.activity.EdgeToEdge;
@@ -13,6 +15,7 @@ import com.example.quizapp.R;
 import com.example.quizapp.data.QuestionsItem;
 import com.example.quizapp.databinding.ActivityComputerQuizBinding;
 import com.example.quizapp.databinding.ActivityEnglishQuizBinding;
+import com.example.quizapp.ui.resultactivity.ResultActivity;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -58,6 +61,26 @@ public class ComputerQuizActivity extends AppCompatActivity {
                     binding.aanswer.setBackgroundResource(R.color.red);
                     binding.aanswer.setTextColor(getApplicationContext().getColor(R.color.white));
                 }
+
+                if (currentQuestions < questionsItems.size()-1){
+                    Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            currentQuestions++;
+                            setQuestionScreen(currentQuestions);
+                            binding.aanswer.setBackgroundResource(R.color.white);
+                            binding.aanswer.setTextColor(getApplicationContext().getColor(R.color.text_secondery_color));
+
+                        }
+                    }, 500);
+                }else {
+                    Intent intent = new Intent(ComputerQuizActivity.this, ResultActivity.class);
+                    intent.putExtra("correct", correct);
+                    intent.putExtra("wrong", wrong);
+                    startActivity(intent);
+                    finish();
+                }
             }
         });
         binding.banswer.setOnClickListener(new View.OnClickListener() {
@@ -65,12 +88,32 @@ public class ComputerQuizActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (questionsItems.get(currentQuestions).getAnswer2().equals(questionsItems.get(currentQuestions).getCorrect())) {
                     correct++;
-                    binding.aanswer.setBackgroundResource(R.color.green);
-                    binding.aanswer.setTextColor(getApplicationContext().getColor(R.color.white));
+                    binding.banswer.setBackgroundResource(R.color.green);
+                    binding.banswer.setTextColor(getApplicationContext().getColor(R.color.white));
                 }else {
                     wrong++;
-                    binding.aanswer.setBackgroundResource(R.color.red);
-                    binding.aanswer.setTextColor(getApplicationContext().getColor(R.color.white));
+                    binding.banswer.setBackgroundResource(R.color.red);
+                    binding.banswer.setTextColor(getApplicationContext().getColor(R.color.white));
+                }
+
+                if (currentQuestions < questionsItems.size()-1){
+                    Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            currentQuestions++;
+                            setQuestionScreen(currentQuestions);
+                            binding.banswer.setBackgroundResource(R.color.white);
+                            binding.banswer.setTextColor(getApplicationContext().getColor(R.color.text_secondery_color));
+
+                        }
+                    }, 500);
+                }else {
+                    Intent intent = new Intent(ComputerQuizActivity.this, ResultActivity.class);
+                    intent.putExtra("correct", correct);
+                    intent.putExtra("wrong", wrong);
+                    startActivity(intent);
+                    finish();
                 }
             }
         });
@@ -79,12 +122,32 @@ public class ComputerQuizActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (questionsItems.get(currentQuestions).getAnswer3().equals(questionsItems.get(currentQuestions).getCorrect())) {
                     correct++;
-                    binding.aanswer.setBackgroundResource(R.color.green);
-                    binding.aanswer.setTextColor(getApplicationContext().getColor(R.color.white));
+                    binding.canswer.setBackgroundResource(R.color.green);
+                    binding.canswer.setTextColor(getApplicationContext().getColor(R.color.white));
                 }else {
                     wrong++;
-                    binding.aanswer.setBackgroundResource(R.color.red);
-                    binding.aanswer.setTextColor(getApplicationContext().getColor(R.color.white));
+                    binding.canswer.setBackgroundResource(R.color.red);
+                    binding.canswer.setTextColor(getApplicationContext().getColor(R.color.white));
+                }
+
+                if (currentQuestions < questionsItems.size()-1){
+                    Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            currentQuestions++;
+                            setQuestionScreen(currentQuestions);
+                            binding.canswer.setBackgroundResource(R.color.white);
+                            binding.canswer.setTextColor(getApplicationContext().getColor(R.color.text_secondery_color));
+
+                        }
+                    }, 500);
+                }else {
+                    Intent intent = new Intent(ComputerQuizActivity.this, ResultActivity.class);
+                    intent.putExtra("correct", correct);
+                    intent.putExtra("wrong", wrong);
+                    startActivity(intent);
+                    finish();
                 }
             }
         });
@@ -93,12 +156,32 @@ public class ComputerQuizActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (questionsItems.get(currentQuestions).getAnswer4().equals(questionsItems.get(currentQuestions).getCorrect())) {
                     correct++;
-                    binding.aanswer.setBackgroundResource(R.color.green);
-                    binding.aanswer.setTextColor(getApplicationContext().getColor(R.color.white));
+                    binding.danswer.setBackgroundResource(R.color.green);
+                    binding.danswer.setTextColor(getApplicationContext().getColor(R.color.white));
                 }else {
                     wrong++;
-                    binding.aanswer.setBackgroundResource(R.color.red);
-                    binding.aanswer.setTextColor(getApplicationContext().getColor(R.color.white));
+                    binding.danswer.setBackgroundResource(R.color.red);
+                    binding.danswer.setTextColor(getApplicationContext().getColor(R.color.white));
+                }
+
+                if (currentQuestions < questionsItems.size()-1){
+                    Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            currentQuestions++;
+                            setQuestionScreen(currentQuestions);
+                            binding.danswer.setBackgroundResource(R.color.white);
+                            binding.danswer.setTextColor(getApplicationContext().getColor(R.color.text_secondery_color));
+
+                        }
+                    }, 500);
+                }else {
+                    Intent intent = new Intent(ComputerQuizActivity.this, ResultActivity.class);
+                    intent.putExtra("correct", correct);
+                    intent.putExtra("wrong", wrong);
+                    startActivity(intent);
+                    finish();
                 }
             }
         });
@@ -117,7 +200,7 @@ public class ComputerQuizActivity extends AppCompatActivity {
         String jsonquiz = loadJsonFromAssets("computerquestion.json");
         try {
             JSONObject jsonObject = new JSONObject(jsonquiz);
-            JSONArray questions = new JSONArray("computerquestion");
+            JSONArray questions = jsonObject.getJSONArray("computerquestion");
             for (int i = 0; i <questions.length(); i++){
                 JSONObject question = questions.getJSONObject(i);
 
